@@ -1,0 +1,38 @@
+.fb_tab {
+	position: fixed;
+	top:30%;
+	right:-300px;
+	width:300px;
+	background-color: #4A6EA9;
+	border:5px solid #4A6EA9;
+	transition:all 0.5s;
+}
+
+.fb_tab_right {
+	right:-300px;
+}
+.fb_tab_left {
+	left:-300px;
+}
+.fb_tab_right .fb_tab_icon {
+	position: absolute;
+	left: -47px;
+    top: -7px;
+}
+
+.fb_tab_left .fb_tab_icon {
+	position: absolute;
+	right: -47px;
+    top: -7px;
+}
+.fb_tab .fb_tab_icon img {
+	display: block;
+}
+
+.fb_tab_right:hover {
+	right:0px;
+}
+.fb_tab_left:hover {
+	left:0;
+}
+

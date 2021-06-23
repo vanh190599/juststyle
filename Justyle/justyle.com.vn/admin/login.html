@@ -1,0 +1,153 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from justyle.com.vn/admin/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jun 2021 03:27:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="">
+
+  <base >
+
+  <title>Đăng nhập</title>
+
+  <link href="../application/views/backend/assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../application/views/backend/assets/css/theme.min.css" rel="stylesheet">
+
+  <link href="../application/views/backend/assets/css/style.css" rel="stylesheet">
+
+  <link href="../plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"><link href="../plugins/ToastMessages/jquery.toast.css" rel="stylesheet">
+  <script type="text/javascript" src="../application/views/backend/assets/js/jquery.js"></script>
+
+  <script type="text/javascript" src="../application/views/backend/assets/js/bootstrap.min.js"></script>
+
+  <script>
+      $( document ).ready(function() {
+          base = 'login.html';
+          path = 'login.html';
+      });
+  </script>
+
+</head>
+
+  <body class="login-page">
+    <div class="login-widget">
+      <form action="#" method="post" id="user-form-login" autocomplete="off">
+    <div class="login-widget-top"><h1><i class="fa fa-sign-in"></i>Đăng nhập</h1></div>
+    <div class="login-widget-content">
+      	<div class="form-group">
+        	<input name="username" value="" type="text" class="form-control" placeholder="Tài Khoản" autofocus required>
+      	</div>
+      	<div class="form-group">
+        	<input name="password" value="" type="password" class="form-control" id="password" placeholder="Mật khẩu" required>
+      	</div>
+    </div><!-- /login-widget-content -->
+    <div class="login-widget-bottom">
+      	<div class="col-md-6" style="padding:0">
+        	<a href="users/forgot.html">Quên mật khẩu ?</a>
+          <p>Phiên bản 3.1</p>
+      	</div>
+
+      	<div class="col-md-6" style="padding:0">
+          <div class="loader">
+            <div class="dot dot1"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+            <div class="dot dot4"></div>
+          </div>
+        	<button name="login" value="Đăng nhập" type="submit" class="btn btn-info btn-block">Đăng Nhập</button>
+      	</div>
+    </div>
+    
+
+    <div class="wcm-loading">
+      <div class="wcm-box-bg"></div>
+      <div class="wcm-box-thankyou" style="overflow:hidden">
+        <div class="thankyou-message-icon unprint">
+            <div class="icon icon--order-success svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px">
+                    <g fill="none" stroke="#8EC343" stroke-width="2">
+                        <circle cx="36" cy="36" r="35" style="stroke-dasharray:240px, 240px; stroke-dashoffset: 480px;"></circle>
+                        <path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+      </div>
+    </div>
+</form>
+
+
+
+<style type="text/css" media="screen">
+.loader {
+  font-size: 20px;
+  position: relative;
+  width: 4em;
+  height: 1em;
+  margin: 0 auto;
+  display: none;
+}
+
+.dot {
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background: #fff;
+  position: absolute;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.dot1, .dot2 {
+  left: 0;
+}
+
+.dot3 { left: 1.5em; }
+
+.dot4 { left: 3em; }
+
+@keyframes reveal {
+  from { transform: scale(0.001); }
+  to { transform: scale(1); }
+}
+
+@keyframes slide {
+  to { transform: translateX(1.5em) }
+}
+
+
+.dot1 {
+  animation-name: reveal;
+}
+
+.dot2, .dot3 {
+  animation-name: slide;
+}
+
+.dot4 {
+  animation-name: reveal;
+  animation-direction: reverse; /* thx @HugoGiraudel */
+}
+</style>    </div><!-- /login-widget -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../application/views/backend/assets/js/script.js"></script>
+
+    <script src="../application/views/backend/assets/js/user.js" type="text/javascript" charset="utf-8" defer></script><script src="../plugins/ToastMessages/jquery.toast.js" type="text/javascript" charset="utf-8" defer></script>
+  </body>
+
+<!-- Mirrored from justyle.com.vn/admin/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jun 2021 03:27:49 GMT -->
+</html>

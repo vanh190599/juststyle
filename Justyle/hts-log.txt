@@ -1,0 +1,45 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 07 Jun 2021 10:25:32 at http://justyle.com.vn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://justyle.com.vn/ -O1 "C:\Users\Admin\Desktop\justyle\Justyle" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:27:36	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from justyle.com.vn/)
+10:37:55	Error: 	"Not Found" (404) at link justyle.com.vn/images/btn.png (from justyle.com.vn/)
+10:37:55	Warning: 	Retry after error -4 (Incorrect length (215822 Bytes, 521001 expected)) at link justyle.com.vn/uploads/source/JS200109Web.jpg (from justyle.com.vn/)
+10:38:01	Warning: 	Retry after error -4 (Incorrect length (949064 Bytes, 1171558 expected)) at link justyle.com.vn/uploads/source/Hoang Thuy 2.png (from justyle.com.vn/)
+10:38:04	Warning: 	Retry after error -4 (Incorrect length (197769 Bytes, 432788 expected)) at link justyle.com.vn/uploads/source/slider/baner4.jpg (from justyle.com.vn/)
+10:38:38	Warning: 	Retry after error -4 (Incorrect length (337331 Bytes, 645911 expected)) at link justyle.com.vn/uploads/source/slider/baner1.jpg (from justyle.com.vn/)
+10:38:42	Warning: 	Retry after error -4 (Incorrect length (210031 Bytes, 474335 expected)) at link justyle.com.vn/uploads/source/slider/baner2.jpg (from justyle.com.vn/)
+10:38:45	Error: 	"Not Found" (404) at link demo.pcvietnam.com/bio/img/goidien.png (from justyle.com.vn/)
+10:38:45	Error: 	"Not Found" (404) at link demo.pcvietnam.com/bio/img/tuvan.png (from justyle.com.vn/)
+10:38:45	Error: 	"Forbidden" (403) at link justyle.com.vn/application/views/orange/assets/fonts/glyphicons-halflings-regular.eot (from justyle.com.vn/application/views/orange/assets/css/bootstrap.min.css)
+10:38:45	Error: 	"Forbidden" (403) at link justyle.com.vn/application/views/orange/assets/fonts/glyphicons-halflings-regular.eot? (from justyle.com.vn/application/views/orange/assets/css/bootstrap.min.css)
+10:38:45	Error: 	"Forbidden" (403) at link justyle.com.vn/application/views/orange/assets/fonts/glyphicons-halflings-regular.woff2 (from justyle.com.vn/application/views/orange/assets/css/bootstrap.min.css)
+10:38:45	Warning: 	File not parsed, looks like binary: justyle.com.vn/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+10:38:46	Error: 	"Not Found" (404) at link justyle.com.vn/plugins/owl.carousel/assets/owl.video.play.png (from justyle.com.vn/plugins/owl.carousel/assets/owl.carousel.css)
+10:38:46	Error: 	"Not Found" (404) at link justyle.com.vn/application/plugins/woocommerce/assets/css/ico-print.png (from justyle.com.vn/application/plugins/woocommerce/assets/css/style.css)
+10:39:09	Error: 	"Not Found" (404) at link justyle.com.vn/admin/users/forgot (from justyle.com.vn/admin/login)
+10:39:13	Warning: 	Retry after error -4 (Incorrect length (278803 Bytes, 474335 expected)) at link justyle.com.vn/uploads/source/sanpham/Tóc nguyên đầu/JS190527Web-4b.jpg (from justyle.com.vn/vi/gioi-thieu)
+10:39:21	Warning: 	Retry after error -4 (Connect Error) at link justyle.com.vn/uploads/source/sanpham/Tóc nguyên đầu/JS190527Web-1.jpg (from justyle.com.vn/vi/gioi-thieu)
+10:40:28	Warning: 	Retry after error -4 (Incorrect length (193285 Bytes, 526696 expected)) at link justyle.com.vn/uploads/source/267a34d8d8493c176558.jpg (from justyle.com.vn/vi/gioi-thieu)
+10:40:34	Warning: 	Retry after error -4 (Incorrect length (192639 Bytes, 330288 expected)) at link justyle.com.vn/uploads/source/833bf1f22364c73a9e75.jpg (from justyle.com.vn/vi/gioi-thieu)
+10:41:05	Warning: 	Retry after error -4 (Incorrect length (193806 Bytes, 449014 expected)) at link justyle.com.vn/uploads/source/eb001f1f2192c5cc9c83.jpg (from justyle.com.vn/vi/san-pham)
+10:41:07	Warning: 	Retry after error -4 (Incorrect length (194047 Bytes, 512405 expected)) at link justyle.com.vn/uploads/source/e6638607b88a5cd4059b.jpg (from justyle.com.vn/vi/san-pham)
+10:41:39	Warning: 	Retry after error -4 (Incorrect length (183923 Bytes, 492326 expected)) at link justyle.com.vn/uploads/source/d647855dbbd05f8e06c1.jpg (from justyle.com.vn/vi/san-pham)
+10:41:58	Warning: 	Retry after error -4 (Incorrect length (187369 Bytes, 510763 expected)) at link justyle.com.vn/uploads/source/3c8f3c840209e657bf18.jpg (from justyle.com.vn/vi/san-pham)
+10:45:32	Warning: 	Retry after error -4 (Incorrect length (182565 Bytes, 501149 expected)) at link justyle.com.vn/uploads/source/d7cce9f6d77b33256a6a.jpg (from justyle.com.vn/vi/noi-toc)
+10:47:22	Warning: 	Retry after error -4 (Incorrect length (186603 Bytes, 390012 expected)) at link justyle.com.vn/uploads/source/sanpham/Tóc nguyên đầu/Đuôi Ngựa 2.jpg (from justyle.com.vn/vi/duoi-ngua-1)
+10:48:01	Warning: 	Retry after error -4 (Incorrect length (186634 Bytes, 341842 expected)) at link justyle.com.vn/uploads/source/Duoi Ngua.jpg (from justyle.com.vn/vi/duoi-ngua-1)
+10:50:05	Warning: 	Retry after error -4 (Incorrect length (199060 Bytes, 424500 expected)) at link justyle.com.vn/uploads/source/Nguyen dau sieu da.jpg (from justyle.com.vn/vi/phim-phong-tang-hinh-1)
+10:50:22	Warning: 	Retry after error -4 (Incorrect length (1389013 Bytes, 2280119 expected)) at link justyle.com.vn/uploads/source/Nabi 1_2.png (from justyle.com.vn/vi/video-hay)
+10:50:42	Warning: 	Retry after error -4 (Incorrect length (1505851 Bytes, 1769526 expected)) at link justyle.com.vn/uploads/source/Video Tutorial.png (from justyle.com.vn/vi/video-hay)
+11:33:40	Warning: 	Retry after error -4 (Incorrect length (198392 Bytes, 597210 expected)) at link justyle.com.vn/uploads/source/Tut 5.jpg (from justyle.com.vn/vi/video-hay)
+11:36:14	Error: 	Exit requested by shell or user
+11:36:14	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

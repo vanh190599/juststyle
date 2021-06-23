@@ -1,0 +1,29 @@
+.social_buttons {
+	position: fixed;
+	top:30%;
+}
+
+.social_buttons_right {
+	right:0;
+}
+.social_buttons_left {
+	left:0;
+}
+
+.social_buttons .sc_buttons_icon img {
+	display: block;
+	padding-bottom: 5px;
+	// filter: grayscale(100%);
+ //    -moz-filter: grayscale(100%);
+ //    -webkit-filter: grayscale(100%);
+ //    -ms-filter: grayscale(100%);
+ //    -o-filter: grayscale(100%);
+}
+
+// .social_buttons .sc_buttons_icon img:hover {
+// 	filter: grayscale(0%);
+//     -moz-filter: grayscale(0%);
+//     -webkit-filter: grayscale(0%);
+//     -ms-filter: grayscale(0%);
+//     -o-filter: grayscale(0%);
+// }
